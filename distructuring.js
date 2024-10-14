@@ -5,6 +5,7 @@ let person = {
 
 // console.log(person.a);
 // let name = person.a;
+
 // let surname = person.b;
 
 let { a: first, b: second } = person;
