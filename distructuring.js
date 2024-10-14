@@ -10,4 +10,5 @@ let person = {
 let { a: first, b: second } = person;
 
 console.log(first);
+
 console.log(second);
