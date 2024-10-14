@@ -1,8 +1,13 @@
-let a = 10;
-function sum(num) {
-  return a + num;
-}
+let person = {
+  a: "pratham",
+  b: "pateliya",
+};
 
-let abc = 60;
-r = sum(abc);
-console.log(r);
+// console.log(person.a);
+// let name = person.a;
+// let surname = person.b;
+
+let { a: first, b: second } = person;
+
+console.log(first);
+console.log(second);
